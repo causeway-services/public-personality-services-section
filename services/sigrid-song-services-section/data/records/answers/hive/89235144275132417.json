@@ -1,0 +1,19 @@
+{
+  "persona": "sigrid-song",
+  "platform": "hive",
+  "player": {
+    "by": "emsenn/services/561-group/services/public-services-section#sigrid-song",
+    "bearer": "causeway-publishing",
+    "hand": "hive:sigridsong"
+  },
+  "inbox": {
+    "id": "89235144275132417",
+    "type": "mention",
+    "at": "2026-10-06T04:46:57Z",
+    "from": "hivebuzz",
+    "url": "https://peakd.com/@hivebuzz/notify-1791262017"
+  },
+  "decidedAt": "2026-10-06T05:46:15.203Z",
+  "decision": "pass",
+  "reason": "same as 89235144258355202"
+}

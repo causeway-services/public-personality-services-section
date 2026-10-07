@@ -1,0 +1,26 @@
+{
+  "persona": "sigrid-song",
+  "image": "avatar.jpg",
+  "digest": "sha256:0f684a808f683470506b5f2ac60bb44f72093ded9dfc3572b5c908da099f3903",
+  "prompt": "A flat illustrated emblem for a romance author's pen name: a single sprig of wild blueberry and a thin crescent of Lake Superior shoreline inside a circle, deep blue water, soft sunrise gold, cream background. Simple vector-style mark, bold clean shapes. Non-figurative: no people, no faces, no figures, no text, no letters.",
+  "generatedAt": "2026-10-03T01:19:28.323Z",
+  "generation": {
+    "id": "ni:///sha-256;fM3ggPNt7jZPvB1ugCbZqESya1QFoPQ1a6M0cOFFt2c",
+    "type": "ZeroCashMediaInferenceReceipt",
+    "disposition": "fulfilled",
+    "provider": "urn:ame:cloudflare-workers-ai-inference-team",
+    "model": "@cf/black-forest-labs/flux-1-schnell",
+    "capability": "image-generation",
+    "observedAt": "2026-10-03T01:19:28.293Z",
+    "consideration": {
+      "cash": "0",
+      "unit": "USD",
+      "paidOverage": "forbidden"
+    },
+    "output": {
+      "identity": "ni:///sha-256;D2hKgI9oNHBQa18qxgu0T3IJPe2d_DVytckI2gmfOQM",
+      "bytes": 172659,
+      "mimeType": "image/jpeg"
+    }
+  }
+}

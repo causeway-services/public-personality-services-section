@@ -1,0 +1,55 @@
+{
+  "persona": "sigrid-song",
+  "id": "2026-10-05-the-tuesday-class",
+  "draftedAt": "2026-10-05T01:45:21.565Z",
+  "player": {
+    "by": "emsenn/services/561-group/services/public-services-section#sigrid-song",
+    "bearer": "causeway-publishing",
+    "hand": "neocities:sigridsong"
+  },
+  "voice": {
+    "path": "voice.md",
+    "digest": "sha256:623fa587542307c2a0fa822bcc0da4bd6f1431ace4060e2260b556736ffafb85"
+  },
+  "title": "The Tuesday Class",
+  "body": "Every Tuesday, Wally Tam teaches twelve people at the community center how to make scallion pancakes. He tells them the dough needs hot water and ten minutes of rest. He does not tell them that he has made the same pancakes at Harbor Garden for twenty-seven years.\n\nIn October, darkness reaches East Superior Street before the class is finished. Wally packs the uneven pancakes into paper cartons. Some are thick at the center. One has no scallions. He brings them back to the restaurant anyway.\n\nFood is how this family says what it cannot say. Wally teaches the recipe to strangers because teaching it to June would require a conversation. The pancakes are simpler.",
+  "draft": {
+    "workLot": "urn:work-lot:inference:c-yCx20c9gNqT6NPcY_qWy771h391esM6SkPuPjnQsI",
+    "provider": "urn:ame:bare-cedar-fog-codex-inference-team",
+    "taskClass": "persona-note-draft",
+    "selectedOffer": "urn:offer:direct-endpoint:urn:ame:bare-cedar-fog-codex-inference-team:ez_oXDUj7ZRgJ4UDYySdrIgsYfKLHRcryKqW9SAadtk:persona-note-draft",
+    "receipt": "ni:///sha-256;AQ4XbYgAUf_o9oBRmr7YDF4tO6vxeMDK_i99I6LK3GI",
+    "receiver": "actor:WWOM5azg-fTrn1Id0YVbz5AhppbnFny_W5Xl-rKgSs4",
+    "model": "default"
+  },
+  "gate": {
+    "verdict": "pass",
+    "reasons": [],
+    "assay": {
+      "workLot": "urn:work-lot:inference:jWGw4MYE7HaUyjzvXWS8mb9kWEju73ohAVfedRIfHMs",
+      "provider": "urn:ame:bare-cedar-fog-codex-inference-team",
+      "taskClass": "persona-speech-assay",
+      "selectedOffer": "urn:offer:direct-endpoint:urn:ame:bare-cedar-fog-codex-inference-team:ez_oXDUj7ZRgJ4UDYySdrIgsYfKLHRcryKqW9SAadtk:persona-speech-assay",
+      "receipt": "ni:///sha-256;ibBtRF8CLUZ7sNM_f5WvEOiCN46RNt4MRCdKhO_x2FA",
+      "receiver": "actor:WWOM5azg-fTrn1Id0YVbz5AhppbnFny_W5Xl-rKgSs4",
+      "model": "default",
+      "readable": true
+    }
+  },
+  "judgements": {
+    "draft": {
+      "outcome": "accepted",
+      "evidence": "persona-note:sigrid-song:2026-10-05-the-tuesday-class:pass"
+    },
+    "assay": {
+      "outcome": "accepted",
+      "evidence": "persona-note:sigrid-song:2026-10-05-the-tuesday-class:pass"
+    }
+  },
+  "page": {
+    "site": "sigridsong.neocities.org",
+    "path": "content/notes/2026-10-05-the-tuesday-class.md",
+    "url": "https://sigridsong.neocities.org/notes/2026-10-05-the-tuesday-class/",
+    "publishedAt": "2026-10-05T01:45:55.882Z"
+  }
+}

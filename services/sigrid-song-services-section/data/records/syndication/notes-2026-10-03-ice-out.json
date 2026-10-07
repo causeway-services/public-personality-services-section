@@ -1,0 +1,25 @@
+{
+  "persona": "sigrid-song",
+  "entry": {
+    "id": "ni:///sha-256;t7QvNFCi7aZ-27ud4xiFMZyv4H5RtkyRZlOcHisM80g",
+    "url": "https://sigridsong.neocities.org/notes/2026-10-03-ice-out/",
+    "title": "Ice Out",
+    "published": "2026-10-03T00:00:00Z"
+  },
+  "copies": {
+    "mastodon": {
+      "url": "https://mastodon.world/@sigridsong/117374222277924818",
+      "id": "117374222277924818",
+      "at": "2026-10-03T00:48:19.113Z",
+      "state": "posted",
+      "recordedAt": "2026-10-03T00:48:19.744Z"
+    },
+    "hive": {
+      "url": "https://peakd.com/@sigridsong/notes-2026-10-03-ice-out",
+      "permlink": "notes-2026-10-03-ice-out",
+      "tx": "046d3dd453d9eb173771ce295c40dc68e1203a67",
+      "state": "posted",
+      "recordedAt": "2026-10-03T00:54:24.290Z"
+    }
+  }
+}

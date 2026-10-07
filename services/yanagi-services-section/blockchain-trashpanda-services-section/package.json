@@ -1,0 +1,42 @@
+{
+  "name": "@red-cup-engineering/blockchain-trashpanda",
+  "version": "0.6.0",
+  "type": "module",
+  "description": "Yanagi's public Trashpanda product: policy admission, paid service composition, and product evidence.",
+  "main": "src/server.mjs",
+  "exports": {
+    ".": "./src/server.mjs",
+    "./market-action-admission": "./src/market-action-admission.mjs",
+    "./settlement-witness": "./src/settlement-witness.mjs",
+    "./production-gate": "./src/production-gate.mjs",
+    "./server": "./src/server.mjs",
+    "./x402-service": "./src/x402-service.mjs",
+    "./x402-settlement-witness": "./src/x402-settlement-witness.mjs",
+    "./package.json": "./package.json"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "start:deployment": "node src/deployment.mjs",
+    "check": "node --check src/*.mjs && node --check scripts/*.mjs && node --check test/*.test.mjs",
+    "test": "node --test test/*.test.mjs",
+    "verify:production-gate": "node src/production-gate.mjs",
+    "verify:formation": "node src/verify-enterprise-goal.mjs --cell formation && node src/verify-enterprise-goal.mjs --cell governance && node src/verify-enterprise-goal.mjs --cell economics",
+    "verify:production-goal": "node src/verify-production-goal.mjs",
+    "verify:goal": "node src/verify-enterprise-goal.mjs --all",
+    "verify": "npm run check && npm test"
+  },
+  "dependencies": {
+    "@red-cup-engineering/base-pre-sign-policy-service": "workspace:*",
+    "@red-cup-engineering/semiotic-eavt-services-section": "workspace:*",
+    "@red-cup-engineering/computer-data-engineering-services-section": "workspace:*",
+    "@red-cup-engineering/cryptographic-computer-data-engineering-services-section": "workspace:*",
+    "@red-cup-engineering/ethereum-engineering-services-section": "workspace:*",
+    "@red-cup-engineering/file-services": "workspace:*",
+    "@red-cup-engineering/witness-journal-document-service": "workspace:*",
+    "@red-cup-engineering/x402-services-section": "workspace:*",
+    "express": "5.2.1"
+  }
+}

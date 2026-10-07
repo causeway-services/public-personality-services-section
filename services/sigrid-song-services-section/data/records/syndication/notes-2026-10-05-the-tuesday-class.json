@@ -1,0 +1,35 @@
+{
+  "persona": "sigrid-song",
+  "entry": {
+    "id": "ni:///sha-256;zG7iUoiXNLJwnNcQsQ3YAwx3EHNC95bwZrQ2I6F1XAk",
+    "url": "https://sigridsong.neocities.org/notes/2026-10-05-the-tuesday-class/",
+    "title": "The Tuesday Class",
+    "published": "2026-10-05T00:00:00Z"
+  },
+  "copies": {
+    "hive": {
+      "url": "https://peakd.com/@sigridsong/notes-2026-10-05-the-tuesday-class",
+      "permlink": "notes-2026-10-05-the-tuesday-class",
+      "tx": "c0eb6d33323ba3f844576267561cc184dc14253a",
+      "state": "posted",
+      "player": {
+        "by": "emsenn/services/561-group/services/public-services-section#sigrid-song",
+        "bearer": "causeway-publishing",
+        "hand": "hive:sigridsong"
+      },
+      "recordedAt": "2026-10-05T01:46:23.337Z"
+    },
+    "mastodon": {
+      "url": "https://mastodon.world/@sigridsong/117385775402246140",
+      "id": "117385775402246140",
+      "at": "2026-10-05T01:46:25.800Z",
+      "state": "posted",
+      "player": {
+        "by": "emsenn/services/561-group/services/public-services-section#sigrid-song",
+        "bearer": "causeway-publishing",
+        "hand": "mastodon:sigridsong"
+      },
+      "recordedAt": "2026-10-05T01:46:24.569Z"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@causeway-services/sigrid-song-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Sigrid Song's author site at sigridsong.neocities.org, built with VICTOR from persona.json and the house's records (book manifests, launch plans, her newsletter's receipt) and published to Neocities.",
+  "dependencies": {
+    "@red-cup-engineering/public-personality-services-section": "workspace:*",
+    "@red-cup-engineering/static-site-publisher": "workspace:*"
+  },
+  "devDependencies": {
+    "@red-cup-engineering/neocities-services-section": "workspace:*"
+  },
+  "scripts": {
+    "derive": "author-site derive",
+    "derive:check": "author-site derive --check",
+    "build": "author-site derive --check && rm -rf dist && static-site-publisher build content dist --config=./static-site-publisher.config.mjs",
+    "check": "author-site derive --check && static-site-publisher check content --config=./static-site-publisher.config.mjs",
+    "serve": "static-site-publisher serve content --port=8562 --config=./static-site-publisher.config.mjs",
+    "publish:dry-run": "npm run build && neocities-publish . --dry-run",
+    "publish": "npm run build && neocities-publish ."
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "platform": "email",
+  "provider": "fastmail",
+  "address": "sigrid.song@fastmail.com",
+  "state": "waits-on-person",
+  "step": "api-token",
+  "persona": "sigrid-song",
+  "observedAt": "2026-10-02T17:47:59.467Z"
+}

@@ -1,0 +1,216 @@
+{
+  "type": "NeocitiesDeploymentReceipt",
+  "version": 1,
+  "sitename": "sigridsong",
+  "origin": "https://sigridsong.neocities.org/",
+  "at": "2026-10-03T00:47:49.831Z",
+  "dryRun": false,
+  "prune": true,
+  "treeDigest": "sha256:469a80930a0cf64ad17fee6c8a702659abcc3ae7b6017fe32b89b5f5a4bd0f08",
+  "fileCount": 48,
+  "uploaded": [
+    {
+      "path": "404.html",
+      "sha1": "abc190f639b63cd0c9d9820ea051994d71d12483",
+      "size": 8453
+    },
+    {
+      "path": "about/index.html",
+      "sha1": "aa25b81f41ea218f7e6d30121d86254ff772a465",
+      "size": 11180
+    },
+    {
+      "path": "about/neighborhood/index.html",
+      "sha1": "b1b9bafbf0136a5af58fdf5c38b274b0b74a1df9",
+      "size": 9023
+    },
+    {
+      "path": "archive/index.html",
+      "sha1": "bbbd1c53c30fff9c44f56ce77be011939a0625c8",
+      "size": 9813
+    },
+    {
+      "path": "atlas/index.html",
+      "sha1": "070cd228737f7e9f30b639e70f372b17d0542808",
+      "size": 10092
+    },
+    {
+      "path": "books/archive/index.html",
+      "sha1": "3d8e7a8031ae98452b8ed0f11dc17d334c114daa",
+      "size": 9565
+    },
+    {
+      "path": "books/ice-out/index.html",
+      "sha1": "af84d7e047444de4cd870d967df3a42a695cac25",
+      "size": 11505
+    },
+    {
+      "path": "books/ice-out/neighborhood/index.html",
+      "sha1": "1b906c2f52909c79688dfafe006124576ae017f2",
+      "size": 9031
+    },
+    {
+      "path": "books/index.html",
+      "sha1": "f613f1e23c86a809f9b47765d15142ef8627741e",
+      "size": 9635
+    },
+    {
+      "path": "feed.atom.xml",
+      "sha1": "b3f139100695b7c248e5506c781021ba0f76baf1",
+      "size": 5251
+    },
+    {
+      "path": "feed.json",
+      "sha1": "6e087197851ba485cdb32a91f1e520db9063039c",
+      "size": 4385
+    },
+    {
+      "path": "feed.rss.xml",
+      "sha1": "049091ee3915d53963c311b32c8ceb6020cb04a6",
+      "size": 4893
+    },
+    {
+      "path": "home/neighborhood/index.html",
+      "sha1": "ed9699d266ec95081d89b919e52945d2ff857737",
+      "size": 8983
+    },
+    {
+      "path": "index.html",
+      "sha1": "8a5fd1687c95d94335918eb0e47d729b637efaf0",
+      "size": 11208
+    },
+    {
+      "path": "not_found.html",
+      "sha1": "abc190f639b63cd0c9d9820ea051994d71d12483",
+      "size": 8453
+    },
+    {
+      "path": "notes/2026-10-03-ice-out/index.html",
+      "sha1": "541dd98e7dc77069c434e371b86d0c23c54d2875",
+      "size": 11171
+    },
+    {
+      "path": "notes/2026-10-03-ice-out/neighborhood/index.html",
+      "sha1": "50b6342e4b3ba74b09c8289f9f91d996753366e7",
+      "size": 9097
+    },
+    {
+      "path": "notes/archive/index.html",
+      "sha1": "3b9577b1b4fd5cb462a542f1a237e868623df5a0",
+      "size": 9576
+    },
+    {
+      "path": "notes/index.html",
+      "sha1": "5d20fdf1e0bdcc1533ac3bfc8bfe221d0613c030",
+      "size": 9646
+    },
+    {
+      "path": "release-manifest.json",
+      "sha1": "197282af2ea4ae5fa058d7bad22ea0a841cc9d80",
+      "size": 20982
+    },
+    {
+      "path": "search/index.html",
+      "sha1": "bf9d7775dca9a7a8abba2f227479ad8050e1ba4d",
+      "size": 10829
+    },
+    {
+      "path": "search/search-index.json",
+      "sha1": "ae89d9b61a4e8c5da7a1a818169651a614b3dc86",
+      "size": 18828
+    },
+    {
+      "path": "sections/index.html",
+      "sha1": "da192eee0c7da75806ed2c8f98ab8cc5409d3d6b",
+      "size": 9463
+    },
+    {
+      "path": "service-worker.js",
+      "sha1": "a4c67bc66b8d4338b6f4addef073b0ef42e48a87",
+      "size": 2188
+    },
+    {
+      "path": "sitemap.xml",
+      "sha1": "82b913404d5248a4c0d379471e9a00241ce93073",
+      "size": 2526
+    },
+    {
+      "path": "statuses/active/archive/index.html",
+      "sha1": "215f82d371d62dae4885317581b2499520eafc72",
+      "size": 9898
+    },
+    {
+      "path": "statuses/active/index.html",
+      "sha1": "951633fc73ad09780e2b2cdee3ea95a4d5480fde",
+      "size": 9967
+    },
+    {
+      "path": "statuses/index.html",
+      "sha1": "97517cbefc579fdf937b1f36fbad09cb841e4d66",
+      "size": 9397
+    },
+    {
+      "path": "tags/books/archive/index.html",
+      "sha1": "b429805740babf8d27adc91a7e02e88dd370eebb",
+      "size": 9654
+    },
+    {
+      "path": "tags/books/index.html",
+      "sha1": "1a6bf59f5e826c41fe8be56920d4cddd9a035c7d",
+      "size": 9720
+    },
+    {
+      "path": "tags/ice-out/archive/index.html",
+      "sha1": "d4e08499b03bb0c8781290ed35e97b63308e574c",
+      "size": 9578
+    },
+    {
+      "path": "tags/ice-out/index.html",
+      "sha1": "0da94e7b18eb9c5938b1811bcff08bd758362816",
+      "size": 9644
+    },
+    {
+      "path": "tags/index.html",
+      "sha1": "7358316413047aa8713bc84305582164f0385cd7",
+      "size": 9621
+    },
+    {
+      "path": "tags/notes/archive/index.html",
+      "sha1": "feba6b7ac4380949cf32a0cba695a21a65ae11c0",
+      "size": 9575
+    },
+    {
+      "path": "tags/notes/index.html",
+      "sha1": "d2d7c36fac9cb0897f772e39aa3537bb78603c45",
+      "size": 9641
+    },
+    {
+      "path": "tags/sigrid-song/archive/index.html",
+      "sha1": "27e45bb88c09e745685b914337a0745fcbeb1e14",
+      "size": 9698
+    },
+    {
+      "path": "tags/sigrid-song/index.html",
+      "sha1": "d9bd94ff81deb566d5441bb52ec55e229ed6ba80",
+      "size": 9764
+    },
+    {
+      "path": "types/index.html",
+      "sha1": "4af53b3cd9b9fd858f33a768c8928805eea0d68e",
+      "size": 9376
+    },
+    {
+      "path": "types/page/archive/index.html",
+      "sha1": "8efbdf0f485024aeead01d20cfd2a2f202b3bd28",
+      "size": 9867
+    },
+    {
+      "path": "types/page/index.html",
+      "sha1": "2935f8f78486c6f4a7607092f5f18ff3ec6fddd7",
+      "size": 9934
+    }
+  ],
+  "deleted": [],
+  "unchanged": 8,
+  "verified": true
+}

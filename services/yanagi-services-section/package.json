@@ -1,0 +1,9 @@
+{
+  "name": "@causeway-services/yanagi-services-section",
+  "version": "0.1.0",
+  "description": "Yanagi's historical, biographical, and legacy documentary archive, consolidated from scattered notes across the repository.",
+  "type": "module",
+  "keywords": [
+    "public"
+  ]
+}

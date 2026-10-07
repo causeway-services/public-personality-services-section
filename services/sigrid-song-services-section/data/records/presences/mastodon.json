@@ -1,0 +1,16 @@
+{
+  "platform": "mastodon",
+  "server": "mastodon.world",
+  "username": "sigridsong",
+  "handle": "@sigridsong@mastodon.world",
+  "url": "https://mastodon.world/@sigridsong",
+  "state": "held",
+  "profile": "current",
+  "avatar": {
+    "digest": "sha256:0f684a808f683470506b5f2ac60bb44f72093ded9dfc3572b5c908da099f3903",
+    "url": "https://s3.eu-central-2.wasabisys.com/mastodonworld/accounts/avatars/117/372/135/248/620/262/original/bf7d90d2263b2333.jpg",
+    "state": "current"
+  },
+  "persona": "sigrid-song",
+  "observedAt": "2026-10-03T01:20:26.626Z"
+}

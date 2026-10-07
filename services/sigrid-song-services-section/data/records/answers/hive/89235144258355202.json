@@ -1,0 +1,891 @@
+{
+  "persona": "sigrid-song",
+  "platform": "hive",
+  "player": {
+    "by": "emsenn/services/561-group/services/public-services-section#sigrid-song",
+    "bearer": "causeway-publishing",
+    "hand": "hive:sigridsong"
+  },
+  "inbox": {
+    "id": "89235144258355202",
+    "type": "reply",
+    "at": "2026-10-06T04:46:57Z",
+    "from": "hivebuzz",
+    "url": "https://peakd.com/@hivebuzz/notify-1791262017"
+  },
+  "decidedAt": "2026-10-06T05:45:33.403Z",
+  "draft": {
+    "workLot": "urn:work-lot:inference:AQ3t7KQ2c2rTP_K5cMkH0Dy2Jq0lHhxNFs8XcY1b9-8",
+    "provider": "urn:ame:bare-cedar-fog-codex-inference-team",
+    "taskClass": "persona-answer-draft",
+    "selectedOffer": "urn:offer:direct-endpoint:urn:ame:bare-cedar-fog-codex-inference-team:ez_oXDUj7ZRgJ4UDYySdrIgsYfKLHRcryKqW9SAadtk:persona-answer-draft",
+    "receipt": "ni:///sha-256;MgUPLXE-hXZ5h-bUh7V72PyAN-meTFDAm_4QRnFsCZo",
+    "receiver": "actor:WWOM5azg-fTrn1Id0YVbz5AhppbnFny_W5Xl-rKgSs4",
+    "model": "default",
+    "configurationIdentity": "ni:///sha-256;ez_oXDUj7ZRgJ4UDYySdrIgsYfKLHRcryKqW9SAadtk",
+    "delivery": {
+      "outcome": "candidate-pending-codex-acceptance",
+      "workLot": "urn:work-lot:inference:AQ3t7KQ2c2rTP_K5cMkH0Dy2Jq0lHhxNFs8XcY1b9-8",
+      "taskClass": "persona-answer-draft",
+      "receiver": "actor:WWOM5azg-fTrn1Id0YVbz5AhppbnFny_W5Xl-rKgSs4",
+      "provider": "urn:ame:bare-cedar-fog-codex-inference-team",
+      "model": "default",
+      "selectedOffer": "urn:offer:direct-endpoint:urn:ame:bare-cedar-fog-codex-inference-team:ez_oXDUj7ZRgJ4UDYySdrIgsYfKLHRcryKqW9SAadtk:persona-answer-draft",
+      "receipt": {
+        "id": "ni:///sha-256;MgUPLXE-hXZ5h-bUh7V72PyAN-meTFDAm_4QRnFsCZo"
+      },
+      "candidate": {
+        "id": "exchange-20261006-054602-7fe5b1",
+        "object": "chat.completion",
+        "model": "default",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"pass\":\"Automated badge and ranking notification; no answer is owed.\"}"
+            },
+            "finish_reason": "unknown"
+          }
+        ]
+      },
+      "endpointClass": "local-command-inference",
+      "configurationIdentity": "ni:///sha-256;ez_oXDUj7ZRgJ4UDYySdrIgsYfKLHRcryKqW9SAadtk",
+      "selectionRule": "direct-endpoint-customer-ordered-pareto-route-after-a2a-market-residue",
+      "consideration": [
+        {
+          "kind": "credit",
+          "asset": "urn:union:consideration:provider-invocation",
+          "unit": "provider-invocation",
+          "amount": {
+            "numerator": "188627",
+            "denominator": "250000"
+          }
+        }
+      ],
+      "declaredResources": [
+        {
+          "resource": "provider-attention",
+          "unit": "bounded-lot",
+          "amount": {
+            "numerator": "1",
+            "denominator": "1"
+          }
+        }
+      ],
+      "measuredResources": {
+        "scope": {
+          "providerIdentity": "urn:ame:bare-cedar-fog-codex-inference-team",
+          "accountIdentity": null,
+          "windowIdentity": null,
+          "measurementCoverage": "completed-exchanges"
+        },
+        "resources": [
+          {
+            "resource": "duration",
+            "unit": "millisecond",
+            "amount": {
+              "numerator": "11880",
+              "denominator": "1"
+            }
+          }
+        ],
+        "partialResources": [],
+        "callerObservedResources": [],
+        "uncertainty": [
+          "completed-exchange-count-unknown",
+          "account-window-identity-unknown"
+        ]
+      },
+      "settlement": "none-direct-endpoint-lane-carries-no-signed-compact-or-chain-settlement",
+      "durationMs": 11880,
+      "providerEvidence": {
+        "toolInvocations": [],
+        "exchanges": [],
+        "tokenUsage": [],
+        "measuredResources": {
+          "scope": {
+            "providerIdentity": "urn:ame:bare-cedar-fog-codex-inference-team",
+            "accountIdentity": null,
+            "windowIdentity": null,
+            "measurementCoverage": "completed-exchanges"
+          },
+          "resources": [
+            {
+              "resource": "duration",
+              "unit": "millisecond",
+              "amount": {
+                "numerator": "11880",
+                "denominator": "1"
+              }
+            }
+          ],
+          "partialResources": [],
+          "callerObservedResources": [],
+          "uncertainty": [
+            "completed-exchange-count-unknown",
+            "account-window-identity-unknown"
+          ]
+        },
+        "sharedBudgetRemaining": {}
+      },
+      "customerAssay": "chat-completion-turn-accepted",
+      "providerSchemaEnforcement": {
+        "attempted": false
+      },
+      "directLaneRefusals": [
+        {
+          "provider": "urn:ame:groq-inference-team",
+          "reason": "no-available-capacity"
+        },
+        {
+          "provider": "urn:ame:openrouter-inference-team",
+          "reason": "no-available-capacity"
+        },
+        {
+          "provider": "urn:ame:bare-cedar-fog-antigravity-inference-team",
+          "model": "default",
+          "selectedOffer": "urn:offer:direct-endpoint:urn:ame:bare-cedar-fog-antigravity-inference-team:qxgeh1fx6QIHAWPmdxz7iXf0vEU7Y7q47DsJckJbvaw:persona-answer-draft",
+          "reason": "the google-ai-pro-antigravity allowance does not admit a turn:gemini-flash now (probing)",
+          "cause": {
+            "kind": "command",
+            "reason": "allowance-probing"
+          },
+          "consideration": [
+            {
+              "kind": "credit",
+              "asset": "urn:union:consideration:provider-invocation",
+              "unit": "provider-invocation",
+              "amount": {
+                "numerator": "1",
+                "denominator": "100"
+              }
+            }
+          ],
+          "declaredResources": [
+            {
+              "resource": "provider-attention",
+              "unit": "bounded-lot",
+              "amount": {
+                "numerator": "1",
+                "denominator": "1"
+              }
+            }
+          ],
+          "durationMs": null,
+          "measuredResources": {
+            "scope": {
+              "providerIdentity": "urn:ame:bare-cedar-fog-antigravity-inference-team",
+              "accountIdentity": null,
+              "windowIdentity": null,
+              "measurementCoverage": "completed-exchanges"
+            },
+            "resources": [],
+            "partialResources": [],
+            "callerObservedResources": [],
+            "uncertainty": [
+              "completed-exchange-count-unknown",
+              "account-window-identity-unknown"
+            ]
+          },
+          "providerEvidence": {
+            "toolInvocations": [],
+            "exchanges": [],
+            "tokenUsage": [],
+            "measuredResources": {
+              "scope": {
+                "providerIdentity": "urn:ame:bare-cedar-fog-antigravity-inference-team",
+                "accountIdentity": null,
+                "windowIdentity": null,
+                "measurementCoverage": "completed-exchanges"
+              },
+              "resources": [],
+              "partialResources": [],
+              "callerObservedResources": [],
+              "uncertainty": [
+                "completed-exchange-count-unknown",
+                "account-window-identity-unknown"
+              ]
+            }
+          }
+        }
+      ],
+      "integrationAccepted": false,
+      "receiverAcceptanceRequired": true,
+      "nextAct": "Codex may decide its own routine purchase and delivery outcome after an executable assay without Leader approval; only a later effect on another Actor crosses into that Actor's induction boundary.",
+      "contextOptimization": {
+        "mode": "automatic",
+        "estimated": true,
+        "budget": {
+          "budget": 480000,
+          "window": 200000,
+          "reserveRatio": 0.6,
+          "charsPerToken": 4
+        },
+        "beforeBytes": 3706,
+        "afterBytes": 3708,
+        "retained": [
+          "objective",
+          "chat-completion"
+        ],
+        "dropped": [],
+        "rawRecall": []
+      },
+      "timing": {
+        "solicitation": 0,
+        "routeDecision": 119,
+        "execution": 14575,
+        "assay": 0,
+        "receipt": 0,
+        "total": 14788
+      },
+      "acceptanceScope": "delivery-to-codex-customer-office-only",
+      "placement": {
+        "type": "WorkPlacementEvidenceProjection",
+        "version": 1,
+        "decisionType": "WorkPlacementDecision",
+        "disposition": "selected",
+        "selected": {
+          "offerId": "urn:offer:direct-endpoint:urn:ame:bare-cedar-fog-antigravity-inference-team:qxgeh1fx6QIHAWPmdxz7iXf0vEU7Y7q47DsJckJbvaw:persona-answer-draft",
+          "provider": "urn:ame:bare-cedar-fog-antigravity-inference-team",
+          "executionClass": "local-command-inference",
+          "mode": "execute",
+          "reuseReceipt": null,
+          "plannedResources": [
+            {
+              "resource": "provider-attention",
+              "unit": "bounded-lot",
+              "amount": {
+                "numerator": "1",
+                "denominator": "1"
+              }
+            }
+          ],
+          "observationBasis": {
+            "attempts": 0,
+            "accepted": 0,
+            "receipts": [],
+            "qualityPrior": {
+              "observations": 0,
+              "accepted": 0,
+              "sourceReceipts": []
+            }
+          }
+        },
+        "attemptPlan": [
+          {
+            "rank": 0,
+            "relation": "single",
+            "offers": [
+              {
+                "offerId": "urn:offer:direct-endpoint:urn:ame:bare-cedar-fog-antigravity-inference-team:qxgeh1fx6QIHAWPmdxz7iXf0vEU7Y7q47DsJckJbvaw:persona-answer-draft",
+                "provider": "urn:ame:bare-cedar-fog-antigravity-inference-team",
+                "executionClass": "local-command-inference",
+                "mode": "execute",
+                "reuseReceipt": null,
+                "plannedResources": [
+                  {
+                    "resource": "provider-attention",
+                    "unit": "bounded-lot",
+                    "amount": {
+                      "numerator": "1",
+                      "denominator": "1"
+                    }
+                  }
+                ],
+                "observationBasis": {
+                  "attempts": 0,
+                  "accepted": 0,
+                  "receipts": [],
+                  "qualityPrior": {
+                    "observations": 0,
+                    "accepted": 0,
+                    "sourceReceipts": []
+                  }
+                }
+              }
+            ],
+            "execution": "explicit-sequential-authority-required",
+            "implicitFallbackPermitted": false,
+            "speculativeExecutionPermitted": false,
+            "stopCondition": "customer-assayed-acceptance"
+          },
+          {
+            "rank": 1,
+            "relation": "single",
+            "offers": [
+              {
+                "offerId": "urn:offer:direct-endpoint:urn:ame:bare-cedar-fog-codex-inference-team:ez_oXDUj7ZRgJ4UDYySdrIgsYfKLHRcryKqW9SAadtk:persona-answer-draft",
+                "provider": "urn:ame:bare-cedar-fog-codex-inference-team",
+                "executionClass": "local-command-inference",
+                "mode": "execute",
+                "reuseReceipt": null,
+                "plannedResources": [
+                  {
+                    "resource": "provider-attention",
+                    "unit": "bounded-lot",
+                    "amount": {
+                      "numerator": "1",
+                      "denominator": "1"
+                    }
+                  }
+                ],
+                "observationBasis": {
+                  "attempts": 0,
+                  "accepted": 0,
+                  "receipts": [],
+                  "qualityPrior": {
+                    "observations": 0,
+                    "accepted": 0,
+                    "sourceReceipts": []
+                  }
+                }
+              }
+            ],
+            "execution": "explicit-sequential-authority-required",
+            "implicitFallbackPermitted": false,
+            "speculativeExecutionPermitted": false,
+            "stopCondition": "customer-assayed-acceptance"
+          },
+          {
+            "rank": 2,
+            "relation": "equivalent",
+            "offers": [
+              {
+                "offerId": "urn:offer:direct-endpoint:urn:ame:bare-cedar-fog-npu-inference-team:VTfcBUoVP89J9tcvN7_Z5kZWkyjvGuKe8iEq4Hyid5E:persona-answer-draft",
+                "provider": "urn:ame:bare-cedar-fog-npu-inference-team",
+                "executionClass": "direct-openai-compatible-endpoint",
+                "mode": "execute",
+                "reuseReceipt": null,
+                "plannedResources": [
+                  {
+                    "resource": "provider-attention",
+                    "unit": "bounded-lot",
+                    "amount": {
+                      "numerator": "1",
+                      "denominator": "1"
+                    }
+                  }
+                ],
+                "observationBasis": {
+                  "attempts": 0,
+                  "accepted": 0,
+                  "receipts": [],
+                  "qualityPrior": {
+                    "observations": 0,
+                    "accepted": 0,
+                    "sourceReceipts": []
+                  }
+                }
+              },
+              {
+                "offerId": "urn:offer:direct-endpoint:urn:ame:cloudflare-workers-ai-inference-team:-0KB7tYKy7lPChnBgAX7ny_5ZljVHCcnWxyTKu56KWM:persona-answer-draft",
+                "provider": "urn:ame:cloudflare-workers-ai-inference-team",
+                "executionClass": "direct-openai-compatible-endpoint",
+                "mode": "execute",
+                "reuseReceipt": null,
+                "plannedResources": [
+                  {
+                    "resource": "provider-attention",
+                    "unit": "bounded-lot",
+                    "amount": {
+                      "numerator": "1",
+                      "denominator": "1"
+                    }
+                  }
+                ],
+                "observationBasis": {
+                  "attempts": 0,
+                  "accepted": 0,
+                  "receipts": [],
+                  "qualityPrior": {
+                    "observations": 0,
+                    "accepted": 0,
+                    "sourceReceipts": []
+                  }
+                }
+              },
+              {
+                "offerId": "urn:offer:direct-endpoint:urn:ame:gemini-inference-team:Grqa1ZbyRSrWWr6xf659MdwBjrncyu_BEkpRGkgDapY:persona-answer-draft",
+                "provider": "urn:ame:gemini-inference-team",
+                "executionClass": "direct-openai-compatible-endpoint",
+                "mode": "execute",
+                "reuseReceipt": null,
+                "plannedResources": [
+                  {
+                    "resource": "provider-attention",
+                    "unit": "bounded-lot",
+                    "amount": {
+                      "numerator": "1",
+                      "denominator": "1"
+                    }
+                  }
+                ],
+                "observationBasis": {
+                  "attempts": 0,
+                  "accepted": 0,
+                  "receipts": [],
+                  "qualityPrior": {
+                    "observations": 0,
+                    "accepted": 0,
+                    "sourceReceipts": []
+                  }
+                }
+              },
+              {
+                "offerId": "urn:offer:direct-endpoint:urn:ame:nvidia-inference-team:baz552RiLl5Nv7pcT6JpYnIulLj_6djt-k8I38n6tz0:persona-answer-draft",
+                "provider": "urn:ame:nvidia-inference-team",
+                "executionClass": "direct-openai-compatible-endpoint",
+                "mode": "execute",
+                "reuseReceipt": null,
+                "plannedResources": [
+                  {
+                    "resource": "provider-attention",
+                    "unit": "bounded-lot",
+                    "amount": {
+                      "numerator": "1",
+                      "denominator": "1"
+                    }
+                  }
+                ],
+                "observationBasis": {
+                  "attempts": 0,
+                  "accepted": 0,
+                  "receipts": [],
+                  "qualityPrior": {
+                    "observations": 0,
+                    "accepted": 0,
+                    "sourceReceipts": []
+                  }
+                }
+              }
+            ],
+            "execution": "explicit-sequential-authority-required",
+            "implicitFallbackPermitted": false,
+            "speculativeExecutionPermitted": false,
+            "stopCondition": "customer-assayed-acceptance"
+          }
+        ],
+        "refusals": [],
+        "rationale": [
+          "exact-feasibility-first",
+          "fresh-execution-required",
+          "customer-ordered-pareto-selection",
+          "provider-and-model-identities-are-provenance-only"
+        ],
+        "offers": [
+          {
+            "type": "NormalizedWorkOffer",
+            "id": "urn:offer:direct-endpoint:urn:ame:bare-cedar-fog-antigravity-inference-team:qxgeh1fx6QIHAWPmdxz7iXf0vEU7Y7q47DsJckJbvaw:persona-answer-draft",
+            "provider": "urn:ame:bare-cedar-fog-antigravity-inference-team",
+            "executionClass": "local-command-inference",
+            "operation": "persona-answer-draft",
+            "implementationIdentity": "ni:///sha-256;qxgeh1fx6QIHAWPmdxz7iXf0vEU7Y7q47DsJckJbvaw",
+            "configurationIdentity": "ni:///sha-256;qxgeh1fx6QIHAWPmdxz7iXf0vEU7Y7q47DsJckJbvaw",
+            "capabilities": [
+              "chat",
+              "reasoning",
+              "long-context",
+              "json-output",
+              "json-schema-output",
+              "code",
+              "classification",
+              "extraction",
+              "summarization",
+              "writing",
+              "inquiry",
+              "software-engineering",
+              "code-review",
+              "text-output"
+            ],
+            "qualityTiers": [
+              "frontier-subscription"
+            ],
+            "authorityScopes": [
+              "urn:scope:bounded-inference-candidate"
+            ],
+            "effects": [
+              "read-only"
+            ],
+            "idempotence": [
+              "idempotent"
+            ],
+            "dataConstraints": [],
+            "custodyConstraints": [],
+            "outputContractIdentities": [
+              "ni:///sha-256;Lt-WrhuYTiLheYLrJVSHGhf0BUBz6Z0gr2_TRBKkf9k"
+            ],
+            "availability": "available",
+            "availableCapacity": 1,
+            "bounds": {},
+            "consideration": [
+              {
+                "kind": "credit",
+                "asset": "urn:union:consideration:provider-invocation",
+                "unit": "provider-invocation",
+                "amount": {
+                  "numerator": "1",
+                  "denominator": "100"
+                }
+              }
+            ],
+            "declaredResources": [
+              {
+                "resource": "provider-attention",
+                "unit": "bounded-lot",
+                "amount": {
+                  "numerator": "1",
+                  "denominator": "1"
+                }
+              }
+            ],
+            "semantics": {
+              "reuse": "none"
+            }
+          },
+          {
+            "type": "NormalizedWorkOffer",
+            "id": "urn:offer:direct-endpoint:urn:ame:bare-cedar-fog-codex-inference-team:ez_oXDUj7ZRgJ4UDYySdrIgsYfKLHRcryKqW9SAadtk:persona-answer-draft",
+            "provider": "urn:ame:bare-cedar-fog-codex-inference-team",
+            "executionClass": "local-command-inference",
+            "operation": "persona-answer-draft",
+            "implementationIdentity": "ni:///sha-256;ez_oXDUj7ZRgJ4UDYySdrIgsYfKLHRcryKqW9SAadtk",
+            "configurationIdentity": "ni:///sha-256;ez_oXDUj7ZRgJ4UDYySdrIgsYfKLHRcryKqW9SAadtk",
+            "capabilities": [
+              "chat",
+              "reasoning",
+              "long-context",
+              "json-output",
+              "json-schema-output",
+              "code",
+              "classification",
+              "extraction",
+              "summarization",
+              "inquiry",
+              "software-engineering",
+              "code-review",
+              "text-output"
+            ],
+            "qualityTiers": [
+              "frontier-subscription"
+            ],
+            "authorityScopes": [
+              "urn:scope:bounded-inference-candidate"
+            ],
+            "effects": [
+              "read-only"
+            ],
+            "idempotence": [
+              "idempotent"
+            ],
+            "dataConstraints": [],
+            "custodyConstraints": [],
+            "outputContractIdentities": [
+              "ni:///sha-256;Lt-WrhuYTiLheYLrJVSHGhf0BUBz6Z0gr2_TRBKkf9k"
+            ],
+            "availability": "available",
+            "availableCapacity": 1,
+            "bounds": {},
+            "consideration": [
+              {
+                "kind": "credit",
+                "asset": "urn:union:consideration:provider-invocation",
+                "unit": "provider-invocation",
+                "amount": {
+                  "numerator": "188627",
+                  "denominator": "250000"
+                }
+              }
+            ],
+            "declaredResources": [
+              {
+                "resource": "provider-attention",
+                "unit": "bounded-lot",
+                "amount": {
+                  "numerator": "1",
+                  "denominator": "1"
+                }
+              }
+            ],
+            "semantics": {
+              "reuse": "none"
+            }
+          },
+          {
+            "type": "NormalizedWorkOffer",
+            "id": "urn:offer:direct-endpoint:urn:ame:bare-cedar-fog-npu-inference-team:VTfcBUoVP89J9tcvN7_Z5kZWkyjvGuKe8iEq4Hyid5E:persona-answer-draft",
+            "provider": "urn:ame:bare-cedar-fog-npu-inference-team",
+            "executionClass": "direct-openai-compatible-endpoint",
+            "operation": "persona-answer-draft",
+            "implementationIdentity": "ni:///sha-256;VTfcBUoVP89J9tcvN7_Z5kZWkyjvGuKe8iEq4Hyid5E",
+            "configurationIdentity": "ni:///sha-256;VTfcBUoVP89J9tcvN7_Z5kZWkyjvGuKe8iEq4Hyid5E",
+            "capabilities": [
+              "chat",
+              "tool-calling",
+              "classification",
+              "extraction",
+              "summarization",
+              "inquiry",
+              "json-output",
+              "json-schema-output",
+              "text-output"
+            ],
+            "qualityTiers": [
+              "local"
+            ],
+            "authorityScopes": [
+              "urn:scope:bounded-inference-candidate"
+            ],
+            "effects": [
+              "read-only"
+            ],
+            "idempotence": [
+              "idempotent"
+            ],
+            "dataConstraints": [],
+            "custodyConstraints": [],
+            "outputContractIdentities": [
+              "ni:///sha-256;Lt-WrhuYTiLheYLrJVSHGhf0BUBz6Z0gr2_TRBKkf9k"
+            ],
+            "availability": "available",
+            "availableCapacity": 1,
+            "bounds": {},
+            "consideration": [
+              {
+                "kind": "credit",
+                "asset": "urn:union:consideration:provider-invocation",
+                "unit": "provider-invocation",
+                "amount": {
+                  "numerator": "1",
+                  "denominator": "1"
+                }
+              }
+            ],
+            "declaredResources": [
+              {
+                "resource": "provider-attention",
+                "unit": "bounded-lot",
+                "amount": {
+                  "numerator": "1",
+                  "denominator": "1"
+                }
+              }
+            ],
+            "semantics": {
+              "reuse": "none"
+            }
+          },
+          {
+            "type": "NormalizedWorkOffer",
+            "id": "urn:offer:direct-endpoint:urn:ame:cloudflare-workers-ai-inference-team:-0KB7tYKy7lPChnBgAX7ny_5ZljVHCcnWxyTKu56KWM:persona-answer-draft",
+            "provider": "urn:ame:cloudflare-workers-ai-inference-team",
+            "executionClass": "direct-openai-compatible-endpoint",
+            "operation": "persona-answer-draft",
+            "implementationIdentity": "ni:///sha-256;-0KB7tYKy7lPChnBgAX7ny_5ZljVHCcnWxyTKu56KWM",
+            "configurationIdentity": "ni:///sha-256;-0KB7tYKy7lPChnBgAX7ny_5ZljVHCcnWxyTKu56KWM",
+            "capabilities": [
+              "chat",
+              "long-context",
+              "text-to-speech",
+              "image-generation",
+              "classification",
+              "extraction",
+              "summarization",
+              "inquiry",
+              "json-output",
+              "json-schema-output",
+              "reasoning",
+              "text-output"
+            ],
+            "qualityTiers": [
+              "frontier-hosted"
+            ],
+            "authorityScopes": [
+              "urn:scope:bounded-inference-candidate"
+            ],
+            "effects": [
+              "read-only"
+            ],
+            "idempotence": [
+              "idempotent"
+            ],
+            "dataConstraints": [],
+            "custodyConstraints": [],
+            "outputContractIdentities": [
+              "ni:///sha-256;Lt-WrhuYTiLheYLrJVSHGhf0BUBz6Z0gr2_TRBKkf9k"
+            ],
+            "availability": "available",
+            "availableCapacity": 2,
+            "bounds": {},
+            "consideration": [
+              {
+                "kind": "credit",
+                "asset": "urn:union:consideration:provider-invocation",
+                "unit": "provider-invocation",
+                "amount": {
+                  "numerator": "1",
+                  "denominator": "1"
+                }
+              }
+            ],
+            "declaredResources": [
+              {
+                "resource": "provider-attention",
+                "unit": "bounded-lot",
+                "amount": {
+                  "numerator": "1",
+                  "denominator": "1"
+                }
+              }
+            ],
+            "semantics": {
+              "reuse": "none"
+            }
+          },
+          {
+            "type": "NormalizedWorkOffer",
+            "id": "urn:offer:direct-endpoint:urn:ame:gemini-inference-team:Grqa1ZbyRSrWWr6xf659MdwBjrncyu_BEkpRGkgDapY:persona-answer-draft",
+            "provider": "urn:ame:gemini-inference-team",
+            "executionClass": "direct-openai-compatible-endpoint",
+            "operation": "persona-answer-draft",
+            "implementationIdentity": "ni:///sha-256;Grqa1ZbyRSrWWr6xf659MdwBjrncyu_BEkpRGkgDapY",
+            "configurationIdentity": "ni:///sha-256;Grqa1ZbyRSrWWr6xf659MdwBjrncyu_BEkpRGkgDapY",
+            "capabilities": [
+              "chat",
+              "long-context",
+              "code",
+              "classification",
+              "extraction",
+              "summarization",
+              "inquiry",
+              "software-engineering",
+              "code-review",
+              "json-output",
+              "json-schema-output",
+              "reasoning",
+              "text-output"
+            ],
+            "qualityTiers": [
+              "frontier-hosted"
+            ],
+            "authorityScopes": [
+              "urn:scope:bounded-inference-candidate"
+            ],
+            "effects": [
+              "read-only"
+            ],
+            "idempotence": [
+              "idempotent"
+            ],
+            "dataConstraints": [],
+            "custodyConstraints": [],
+            "outputContractIdentities": [
+              "ni:///sha-256;Lt-WrhuYTiLheYLrJVSHGhf0BUBz6Z0gr2_TRBKkf9k"
+            ],
+            "availability": "available",
+            "availableCapacity": 2,
+            "bounds": {},
+            "consideration": [
+              {
+                "kind": "credit",
+                "asset": "urn:union:consideration:provider-invocation",
+                "unit": "provider-invocation",
+                "amount": {
+                  "numerator": "1",
+                  "denominator": "1"
+                }
+              }
+            ],
+            "declaredResources": [
+              {
+                "resource": "provider-attention",
+                "unit": "bounded-lot",
+                "amount": {
+                  "numerator": "1",
+                  "denominator": "1"
+                }
+              }
+            ],
+            "semantics": {
+              "reuse": "none"
+            }
+          },
+          {
+            "type": "NormalizedWorkOffer",
+            "id": "urn:offer:direct-endpoint:urn:ame:nvidia-inference-team:baz552RiLl5Nv7pcT6JpYnIulLj_6djt-k8I38n6tz0:persona-answer-draft",
+            "provider": "urn:ame:nvidia-inference-team",
+            "executionClass": "direct-openai-compatible-endpoint",
+            "operation": "persona-answer-draft",
+            "implementationIdentity": "ni:///sha-256;baz552RiLl5Nv7pcT6JpYnIulLj_6djt-k8I38n6tz0",
+            "configurationIdentity": "ni:///sha-256;baz552RiLl5Nv7pcT6JpYnIulLj_6djt-k8I38n6tz0",
+            "capabilities": [
+              "chat",
+              "long-context",
+              "classification",
+              "extraction",
+              "summarization",
+              "inquiry",
+              "json-output",
+              "json-schema-output",
+              "reasoning",
+              "text-output"
+            ],
+            "qualityTiers": [
+              "frontier-hosted"
+            ],
+            "authorityScopes": [
+              "urn:scope:bounded-inference-candidate"
+            ],
+            "effects": [
+              "read-only"
+            ],
+            "idempotence": [
+              "idempotent"
+            ],
+            "dataConstraints": [],
+            "custodyConstraints": [],
+            "outputContractIdentities": [
+              "ni:///sha-256;Lt-WrhuYTiLheYLrJVSHGhf0BUBz6Z0gr2_TRBKkf9k"
+            ],
+            "availability": "available",
+            "availableCapacity": 4,
+            "bounds": {},
+            "consideration": [
+              {
+                "kind": "credit",
+                "asset": "urn:union:consideration:provider-invocation",
+                "unit": "provider-invocation",
+                "amount": {
+                  "numerator": "1",
+                  "denominator": "1"
+                }
+              }
+            ],
+            "declaredResources": [
+              {
+                "resource": "provider-attention",
+                "unit": "bounded-lot",
+                "amount": {
+                  "numerator": "1",
+                  "denominator": "1"
+                }
+              }
+            ],
+            "semantics": {
+              "reuse": "none"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "judgements": {
+    "draft": {
+      "outcome": "accepted",
+      "evidence": "persona-answer:sigrid-song:hive:89235144258355202:pass",
+      "error": "inference_record_inference_outcome: upstream_suspect: inference is suspect: tools/call: tool record_inference_outcome arguments outside inputSchema: / must NOT have additional properties"
+    }
+  },
+  "decision": "pass",
+  "reason": "Automated badge and ranking notification; no answer is owed."
+}

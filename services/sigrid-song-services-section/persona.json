@@ -1,0 +1,62 @@
+{
+  "persona": "sigrid-song",
+  "name": "Sigrid Song",
+  "summary": "Slow, warm love stories set on the shore of Lake Superior.",
+  "disclosure": "A fictional author-character: the 561 Group created her and performs her using AI.",
+  "discloseOn": [],
+  "home": "https://sigridsong.neocities.org/",
+  "publisher": "Causeway Services",
+  "links": [
+    "https://shop.561.group/"
+  ],
+  "avatar": {
+    "image": "avatar.jpg",
+    "prompt": "A flat illustrated emblem for a romance author's pen name: a single sprig of wild blueberry and a thin crescent of Lake Superior shoreline inside a circle, deep blue water, soft sunrise gold, cream background. Simple vector-style mark, bold clean shapes. Non-figurative: no people, no faces, no figures, no text, no letters."
+  },
+  "email": {
+    "provider": "fastmail",
+    "prefer": [
+      "sigrid.song@fastmail.com",
+      "sigrid.song@561.group"
+    ]
+  },
+  "syndicate": {
+    "feed": "https://sigridsong.neocities.org/feed.json",
+    "since": "2026-10-02"
+  },
+  "notes": {
+    "voice": "voice.md",
+    "cadence": "P2D",
+    "site": "sigridsong.neocities.org"
+  },
+  "presences": [
+    {
+      "platform": "neocities",
+      "site": "sigridsong"
+    },
+    {
+      "platform": "hive",
+      "account": "sigridsong",
+      "creator": "group561",
+      "keys": "ssh:cold-red-gate",
+      "rc": { "comments": 6, "ceiling": 8000000000 },
+      "tags": [
+        "romance",
+        "books",
+        "writing",
+        "duluth",
+        "lakesuperior"
+      ]
+    },
+    {
+      "platform": "mastodon",
+      "server": "mastodon.world",
+      "username": "sigridsong",
+      "reason": "Author account for Sigrid Song, the byline Causeway Services publishes its Lake Superior romance novels under. It will post now and then about her books and the lake, and nothing else."
+    },
+    {
+      "platform": "buttondown",
+      "newsletter": "sigridsong"
+    }
+  ]
+}

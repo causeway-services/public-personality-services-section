@@ -1,0 +1,9 @@
+{
+  "id": "blockchain-trashpanda",
+  "name": "Blockchain Trashpanda",
+  "target": "An agent preparing an unsigned Base transaction receives a deterministic, block-bound, independently replayable clause-by-clause verdict about conformance to its own declared policy before it signs.",
+  "boundary": [
+    "the service reads unsigned Base transactions and returns a verdict; it takes no secret or signed input and holds no custody, signing or broadcast authority"
+  ],
+  "issued-to": "chief-executive-officer"
+}

@@ -1,0 +1,50 @@
+{
+  "persona": "sigrid-song",
+  "id": "2026-10-03-ice-out",
+  "draftedAt": "2026-10-03T00:47:36.481Z",
+  "voice": {
+    "path": "voice.md",
+    "digest": "sha256:623fa587542307c2a0fa822bcc0da4bd6f1431ace4060e2260b556736ffafb85"
+  },
+  "title": "Ice Out",
+  "body": "I am writing about the time of year when the ice on Lake Superior begins to break up. The sun shines, but the water is still cold. In my book *Ice Out*, I wanted to capture this moment when the lake and the city of Duluth are still connected, but also starting to separate. The Aerial Lift Bridge answers the ships, its steel frame a reminder of the lake's power. June Tam, the protagonist, drives across the bridge on a sleet-covered day. The bridge is the first thing I put in, and it sets the tone for the rest of the story.",
+  "draft": {
+    "workLot": "urn:work-lot:inference:QnM7uRdSRf3oWuycsqc9erCJd73E7e25_vXobrTJwg0",
+    "provider": "urn:ame:cloudflare-workers-ai-inference-team",
+    "taskClass": "persona-note-draft",
+    "selectedOffer": "urn:offer:direct-endpoint:urn:ame:cloudflare-workers-ai-inference-team:hDhVnjkj-r_S52SLvHD6A1Lad9RkfV59aPoaPdECcx8:persona-note-draft",
+    "receipt": "ni:///sha-256;QtALjfNcAjMESelgleSUR2hGqLsWS6EUPpQOSz6TNG0",
+    "receiver": "actor:WWOM5azg-fTrn1Id0YVbz5AhppbnFny_W5Xl-rKgSs4",
+    "model": "@cf/meta/llama-3.2-3b-instruct"
+  },
+  "gate": {
+    "verdict": "pass",
+    "reasons": [],
+    "assay": {
+      "workLot": "urn:work-lot:inference:kUPJCG2i6NyYfwlZW3srBm9D7-6mOMm-r813eAWjBzs",
+      "provider": "urn:ame:cloudflare-workers-ai-inference-team",
+      "taskClass": "persona-speech-assay",
+      "selectedOffer": "urn:offer:direct-endpoint:urn:ame:cloudflare-workers-ai-inference-team:hDhVnjkj-r_S52SLvHD6A1Lad9RkfV59aPoaPdECcx8:persona-speech-assay",
+      "receipt": "ni:///sha-256;ltfWz1-QSYICzeLiXOY2t-Gertct9C054uINRZS_flE",
+      "receiver": "actor:WWOM5azg-fTrn1Id0YVbz5AhppbnFny_W5Xl-rKgSs4",
+      "model": "@cf/meta/llama-3.2-3b-instruct",
+      "readable": true
+    }
+  },
+  "judgements": {
+    "draft": {
+      "outcome": "accepted",
+      "evidence": "persona-note:sigrid-song:2026-10-03-ice-out:pass"
+    },
+    "assay": {
+      "outcome": "accepted",
+      "evidence": "persona-note:sigrid-song:2026-10-03-ice-out:pass"
+    }
+  },
+  "page": {
+    "site": "sigridsong.neocities.org",
+    "path": "content/notes/2026-10-03-ice-out.md",
+    "url": "https://sigridsong.neocities.org/notes/2026-10-03-ice-out/",
+    "publishedAt": "2026-10-03T00:47:52.451Z"
+  }
+}
