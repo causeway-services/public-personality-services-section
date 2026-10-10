@@ -406,7 +406,7 @@ export function evaluateMarketActionAdmission(request) {
     replay: {
       operation: MARKET_ACTION_ENGINE_SPEC.operation,
       engineId,
-      module: "@red-cup-engineering/blockchain-trashpanda",
+      module: "@red-cup-engineering/blockchain-trashpanda-services-section",
       export: "evaluateMarketActionAdmission",
       runtime: "node>=22.18",
       normalizedRequest: normalized,

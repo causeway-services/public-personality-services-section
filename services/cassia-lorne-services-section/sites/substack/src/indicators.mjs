@@ -36,7 +36,7 @@ import {
 
 } from "@lenticule-science/divining/divination";
 
-import { findCircleCrossings } from "@lenticule-science/astronomy-services-section";
+import { findCircleCrossings } from "@lenticule-science/astronomy-position-computation-service";
 import { encodeDailyIndicators, renderIndicatorsBrief } from "@lenticule-science/divining/divination/codecs/indicators";
 import { encodeSpreadDocument } from "@lenticule-science/divining/divination/codecs/spread";
 import { renderChartGlyphs } from "@lenticule-science/divining/divination/codecs/glyph";
