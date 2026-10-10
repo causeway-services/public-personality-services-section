@@ -1,8 +1,8 @@
 import { mkdir } from "node:fs/promises";
 import { dirname } from "node:path";
 
-import { readFileText } from "@red-cup-engineering/file-services/read-file";
-import { writeFileText } from "@red-cup-engineering/file-services/write-file";
+import { readFileText } from "@red-cup-engineering/computer-file-engineering-services-section/read-file";
+import { writeFileText } from "@red-cup-engineering/computer-file-engineering-services-section/write-file";
 
 /**
  * Writes text to path only if the path is absent; if the path already holds different text,

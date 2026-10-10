@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@red-cup-engineering/create-hive-post-draft-service": "workspace:*",
-    "@lenticule-science/astronomy-services-section": "workspace:*",
+    "@lenticule-science/astronomy-position-computation-service": "workspace:*",
     "@lenticule-science/divining": "workspace:*",
     "@red-cup-engineering/json-services-section": "workspace:*"
   },

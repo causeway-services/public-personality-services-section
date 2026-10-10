@@ -3,7 +3,7 @@ import { existsSync, mkdirSync, readFileSync, statSync, writeFileSync } from "no
 import { dirname, join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 import { encryptSettlementMnemonic, ensureSettlementPassword, inspectSettlementMnemonic, openSettlementSigner } from "@red-cup-engineering/ethereum-engineering-services-section/settlement-key-custody";
-import { writeFileTextSync } from "@red-cup-engineering/file-services/write-file";
+import { writeFileTextSync } from "@red-cup-engineering/computer-file-engineering-services-section/write-file";
 import { sha256Hex } from "@red-cup-engineering/cryptographic-computer-data-engineering-services-section/integrity";
 
 export const YANAGI_WALLET_ADDRESS = "0x224c08a8526751887a83e2711b167f890c6d078d";

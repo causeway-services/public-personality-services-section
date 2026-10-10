@@ -4,7 +4,7 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { recordSettlementRecord } from "./settlement-witness.mjs";
 import { semanticDigest } from "@red-cup-engineering/base-pre-sign-policy-service";
-import { writeFileBytesSync } from "@red-cup-engineering/file-services/write-file";
+import { writeFileBytesSync } from "@red-cup-engineering/computer-file-engineering-services-section/write-file";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const ACTOR = "urn:ame:blockchain-trashpanda";

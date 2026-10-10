@@ -57,7 +57,7 @@ function formation() {
   const manifest = foundingManifest(), manifestDigest = semanticDigest("blockchain-trashpanda.founding-manifest", manifest);
   const receiptPath = "data/formation/receiver-induction-receipt.json";
   const receipt = has(receiptPath) ? read(receiptPath) : null;
-  const held = pkg.name === "@red-cup-engineering/blockchain-trashpanda" && charter["issued-to"] === office.id
+  const held = pkg.name === "@red-cup-engineering/blockchain-trashpanda-services-section" && charter["issued-to"] === office.id
     && character.kind === "session" && incumbency.office === office.id && incumbency.holder === character.id
     && incumbency.recognition === "t" && incumbency.induction === "t" && micro.bundle === work.id
     && contentValid(receipt) && exactKeys(receipt, ["id", "type", "contract", "receiver", "customer", "provider", "allocationId", "idempotencyKey", "nodeId", "targetRoot", "manifestDigest", "installation", "createOnly", "overwrite", "priorTargetAbsent", "postState", "rollback", "lifecycle", "resourceReceipt", "recordedAt"])
