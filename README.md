@@ -31,7 +31,7 @@ Some steps need a person: making the email alias, making the Fastmail API token 
 
 ## Her life on the web
 
-Once her accounts exist, `persona-tend` gives every persona one turn each hour (the node's `persona-tend` job, `lib/emsenn/services/561-group/services/561-group-services-section/services/561-group-operations-services-section/deployments/bare-cedar-fog-host/deploy/jobs/persona-tend.json`, run from its release with working-tree custody of `services/`). A turn does six things:
+Once her accounts exist, `persona-tend` gives every persona one turn each hour (the node's `persona-tend` job, `lib/emsenn/services/561-group/services/561-group-services-section/services/561-group-operations-services-section/services/bare-cedar-fog-services-section/data/records/machine-deployment-service-records/metroplat/deployments/bare-cedar-fog-host/deploy/jobs/persona-tend.json`, run from its release with working-tree custody of `services/`). A turn does six things:
 
 1. **Reconcile her presences.** This is `persona-provision --unattended`. When a server approves an account, the next turn sets its profile.
 2. **Keep her sites current.** A site under `sites/` whose `package.json` has `derive`, `derive:check` and `publish` scripts derives some pages from records outside its content, her presence receipts among them. When `derive:check` finds those pages stale, the turn runs `derive` and `publish` (`src/sites.mjs`). So when her Buttondown newsletter comes to be held, her site gains its newsletter and reader-team pages in the same turn.
@@ -46,7 +46,9 @@ Once her accounts exist, `persona-tend` gives every persona one turn each hour (
 
 The gate withholds anything that claims she is human or has a human life, denies AI, names a private person, or breaks a platform's rules. It reads twice: its own patterns first, then a model assay that also holds the text to each platform's stated rules (a Mastodon server's own, Hive's norms). An assay that cannot be read withholds.
 
-The job runs `persona-tend --all --publish --retain`. `--retain` commits and pushes only the records the turn wrote, and a republished site's derived pages, covers and deployment receipts. Leave off `--publish` to see what a turn would post.
+The job runs `persona-tend --all --publish`. It does not retain: a turn's records stay in the node's runtime state, where the next turn reads them back, and no turn opens a pull request. A pull request is a review of a change to source, and an hourly receipt of acts already done is not one. `--retain` commits and pushes only the records the turn wrote, and a republished site's derived pages, covers and deployment receipts; it is for a person at a checkout. Leave off `--publish` to see what a turn would post.
+
+This turn is the thinnest realization of the persona as a body with its own heartbeat. The requirements, specification and design of that body are in [the specification of persona bodies with their own heartbeats](../../../../../engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/agent-computer-system-engineering-services-section/services/multi-agent-computer-system-engineering-services-section/services/multi-agent-computer-platform-engineering-services-section/services/agentic-enterprise-computer-platform-engineering-services-section/apps/metroplat/content/text/documents/specifications/persona-bodies-with-heartbeats.md).
 
 ```sh
 persona-tend services/<persona>-services-section             # what it would post; reads the inbox

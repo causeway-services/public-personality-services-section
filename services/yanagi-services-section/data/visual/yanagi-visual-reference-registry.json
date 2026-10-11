@@ -1,0 +1,88 @@
+{
+  "type": "YanagiVisualReferenceRegistry",
+  "version": 1,
+  "status": "recovered-awaiting-custody-and-acceptance",
+  "asOf": "2026-10-01",
+  "governingRule": "Search relevance, recency, labels, and downstream reuse do not confer canon. Provenance and acceptance state must be checked before a visual can govern Yanagi.",
+  "stableInvariants": [
+    "predominantly white or cream cartoon animal body",
+    "orange accents",
+    "paired target or bullseye cheek marks",
+    "large expressive eyes",
+    "pointed fox/cat ears",
+    "fluffy tail with orange marking",
+    "strong black cartoon line",
+    "fox/cat/raccoon hybrid reading"
+  ],
+  "unresolvedTraits": [
+    "eye color",
+    "forehead mark",
+    "exact eye-mask geometry",
+    "exact tail-band geometry",
+    "head/body ratio",
+    "limb length",
+    "muzzle and face proportions",
+    "glasses",
+    "clothing",
+    "props and workplace details"
+  ],
+  "references": [
+    {
+      "source": "google-drive",
+      "fileId": "1RCCP5r69CioBKwrqzb1B2CUytggIY7ev",
+      "modifiedAt": "2025-07-15T19:13:24Z",
+      "state": "historical-reference"
+    },
+    {
+      "source": "google-drive",
+      "fileId": "1A1kqQ4QELEU5N-LBiPMQFaMo1Dicn0mG",
+      "modifiedAt": "2025-07-15T19:15:18Z",
+      "state": "historical-reference"
+    },
+    {
+      "source": "google-drive",
+      "fileId": "1YAjM8Z8ftQPjwVXYWVLV7vFxPIh9c4gA",
+      "modifiedAt": "2025-07-15T19:15:21Z",
+      "state": "historical-reference"
+    },
+    {
+      "source": "google-drive",
+      "fileId": "1nTw_k6vFyrMN3Iza7G_R1sHZDovQA93z",
+      "modifiedAt": "2025-07-15T19:15:23Z",
+      "state": "historical-reference"
+    },
+    {
+      "source": "google-drive",
+      "fileId": "10lnvMJ6j66F9Jxegl2_emYurComVMdyY",
+      "modifiedAt": "2025-07-15T19:19:50Z",
+      "state": "historical-reference"
+    }
+  ],
+  "candidateReferences": [
+    {
+      "source": "google-drive",
+      "fileId": "1o3AVeyYNF0fQYSPFvIMkIltrjBG7rQeN",
+      "modifiedAt": "2025-07-15T14:07:34Z",
+      "state": "historical-candidate",
+      "note": "Earlier same-day candidate; chronology does not confer canon."
+    }
+  ],
+  "rejectedAsCanonEvidence": [
+    {
+      "source": "google-drive",
+      "fileId": "1a212xqjEgz0LIqnc_vzLkCjGYPj37l20",
+      "state": "downstream-board-not-canon"
+    },
+    {
+      "source": "google-drive",
+      "fileId": "1LbR6BBSfroG13TjiMKiptxEU4l1b4GXd",
+      "state": "downstream-board-not-canon",
+      "reason": "Human/anime-style depiction conflicts with accepted animal-form invariants."
+    }
+  ],
+  "nextTransitions": [
+    "copy or otherwise admit authoritative reference bytes into institutional custody without changing their evidentiary state",
+    "Public Media selects an anchor or receives a neutral model sheet",
+    "generated derivatives remain candidates until separately accepted"
+  ]
+}

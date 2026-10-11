@@ -1,0 +1,35 @@
+{
+  "persona": "sigrid-song",
+  "entry": {
+    "id": "ni:///sha-256;iDJEpZzeYKAHXNARraW1DuUutxYaZspvvjc4HN7AHJY",
+    "url": "https://sigridsong.neocities.org/notes/2026-10-07-sea-smoke-in-january/",
+    "title": "Sea Smoke in January",
+    "published": "2026-10-07T00:00:00Z"
+  },
+  "copies": {
+    "hive": {
+      "url": "https://peakd.com/@sigridsong/notes-2026-10-07-sea-smoke-in-january",
+      "permlink": "notes-2026-10-07-sea-smoke-in-january",
+      "tx": "26a2dff0a054a9efec5ffc004b07dac05c82d449",
+      "state": "posted",
+      "player": {
+        "by": "emsenn/services/561-group/services/public-services-section#sigrid-song",
+        "bearer": "causeway-publishing",
+        "hand": "hive:sigridsong"
+      },
+      "recordedAt": "2026-10-07T23:46:20.929Z"
+    },
+    "mastodon": {
+      "url": "https://mastodon.world/@sigridsong/117402290206360712",
+      "id": "117402290206360712",
+      "at": "2026-10-07T23:46:21.713Z",
+      "state": "posted",
+      "player": {
+        "by": "emsenn/services/561-group/services/public-services-section#sigrid-song",
+        "bearer": "causeway-publishing",
+        "hand": "mastodon:sigridsong"
+      },
+      "recordedAt": "2026-10-07T23:46:21.974Z"
+    }
+  }
+}

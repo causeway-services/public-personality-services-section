@@ -12,10 +12,12 @@
     "@red-cup-engineering/neocities-services-section": "workspace:*"
   },
   "scripts": {
-    "derive": "author-site derive",
-    "derive:check": "author-site derive --check",
-    "build": "author-site derive --check && rm -rf dist && static-site-publisher build content dist --config=./static-site-publisher.config.mjs",
-    "check": "author-site derive --check && static-site-publisher check content --config=./static-site-publisher.config.mjs",
+    "storefronts:check": "node scripts/check-storefronts.mjs",
+    "test": "node --test test/*.test.mjs",
+    "derive": "npm run storefronts:check && author-site derive",
+    "derive:check": "npm run storefronts:check && author-site derive --check",
+    "build": "npm run derive:check && rm -rf dist && static-site-publisher build content dist --config=./static-site-publisher.config.mjs",
+    "check": "npm run derive:check && static-site-publisher check content --config=./static-site-publisher.config.mjs",
     "serve": "static-site-publisher serve content --port=8562 --config=./static-site-publisher.config.mjs",
     "publish:dry-run": "npm run build && neocities-publish . --dry-run",
     "publish": "npm run build && neocities-publish ."

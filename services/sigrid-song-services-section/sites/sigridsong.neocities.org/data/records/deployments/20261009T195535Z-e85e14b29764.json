@@ -1,0 +1,51 @@
+{
+  "type": "NeocitiesDeploymentReceipt",
+  "version": 1,
+  "sitename": "sigridsong",
+  "origin": "https://sigridsong.neocities.org/",
+  "at": "2026-10-09T19:55:35.770Z",
+  "dryRun": false,
+  "prune": true,
+  "treeDigest": "sha256:e85e14b2976413d6c564c286ce1d44492164922f48a9534d8fa3ee9a60c6f07d",
+  "fileCount": 55,
+  "uploaded": [
+    {
+      "path": "books/ice-out/index.html",
+      "sha1": "75cffa10539de17191ac4d6baaf5cf91d86aec48",
+      "size": 11599
+    },
+    {
+      "path": "feed.atom.xml",
+      "sha1": "fbe9aeb9621bd8d899a0b03763b4a2ca327f2538",
+      "size": 7451
+    },
+    {
+      "path": "feed.json",
+      "sha1": "83be3ba0365f07171c41235c0434e5374e3ac950",
+      "size": 6404
+    },
+    {
+      "path": "feed.rss.xml",
+      "sha1": "0bf05609b545ea478245c9d049d45c2328eff7f2",
+      "size": 6949
+    },
+    {
+      "path": "release-manifest.json",
+      "sha1": "fdf1a5e67c7a266c4b2db4d929187abd824213be",
+      "size": 24108
+    },
+    {
+      "path": "search/search-index.json",
+      "sha1": "e2e2859ecdcf52c29cce13841a6effc2ce3da4e9",
+      "size": 24157
+    },
+    {
+      "path": "service-worker.js",
+      "sha1": "b2b4da7f2b2f8ea8144534d113ae3ffce0a56765",
+      "size": 2429
+    }
+  ],
+  "deleted": [],
+  "unchanged": 48,
+  "verified": true
+}

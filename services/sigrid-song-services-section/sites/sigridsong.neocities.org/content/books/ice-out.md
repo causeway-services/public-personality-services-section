@@ -23,6 +23,7 @@ June Tam comes home to Duluth for one winter to help run her family's Cantonese 
 # Where to read it
 
 - [Kindle (Amazon)](https://www.amazon.com/dp/B0HLRR2KNZ)
+- [561 Group](https://shop.561.group/goods/ice-out)
 
 # Who publishes it
 
