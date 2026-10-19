@@ -1,7 +1,0 @@
-{
-  "sitename": "sigridsong",
-  "source": "dist",
-  "prune": true,
-  "receipts": "data/records/deployments",
-  "maxDelete": 100
-}
