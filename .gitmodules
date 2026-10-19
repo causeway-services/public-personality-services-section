@@ -10,3 +10,7 @@
 	path = services/michael-marmot-services-section
 	url = https://github.com/causeway-services/michael-marmot-services-section.git
 	branch = main
+[submodule "services/cassia-lorne-services-section/sites/substack"]
+	path = services/cassia-lorne-services-section/sites/substack
+	url = https://github.com/causeway-services/substack.git
+	branch = main
