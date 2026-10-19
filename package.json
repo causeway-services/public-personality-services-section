@@ -47,5 +47,9 @@
   "engines": {
     "node": ">=22.18"
   },
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/causeway-services/public-personality-services-section.git"
+  }
 }
