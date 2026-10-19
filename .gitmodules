@@ -1,0 +1,12 @@
+[submodule "sigridsong.neocities.org"]
+	path = services/sigrid-song-services-section/sites/sigridsong.neocities.org
+	url = https://github.com/causeway-services/sigridsong.neocities.org.git
+	branch = main
+[submodule "yanagi-services-section"]
+	path = services/yanagi-services-section
+	url = https://github.com/causeway-services/yanagi-services-section.git
+	branch = main
+[submodule "michael-marmot-services-section"]
+	path = services/michael-marmot-services-section
+	url = https://github.com/causeway-services/michael-marmot-services-section.git
+	branch = main
