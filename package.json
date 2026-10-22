@@ -47,9 +47,13 @@
   "engines": {
     "node": ">=22.18"
   },
-  "license": "UNLICENSED",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/causeway-services/public-personality-services-section.git"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
   }
 }
