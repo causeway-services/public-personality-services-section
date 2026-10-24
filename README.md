@@ -77,3 +77,7 @@ persona-provision services/<persona-id>-services-section
 Her site's config is `authorSiteConfig` from `./author-site`: her name, summary, home and other presences (`discovery.me`, so profile links verify) all come from persona.json. `author-site derive` writes what the site derives from the house's records: book pages from `books.json`, the newsletter and reader-team pages while her Buttondown presence is held, and her mark as the site's icons. Write her home and about pages, then add `syndicate` (her feed and the date to start from), `notes` and Hive `tags` to her persona. The hourly turn picks her up by itself.
 
 Hive account names follow protocol rules: 3 to 16 characters, lowercase. Mastodon usernames allow letters, digits and `_`. Mastodon servers that ask for a reason get the presence's `reason`. Moderators approve accounts in hours to days, and a later run then fills in the profile.
+
+---
+
+Executable code of this section (`scripts/, src/, test/`) lives in [red-cup-engineering/public-personality-services-section-engine](https://github.com/red-cup-engineering/public-personality-services-section-engine) at the same relative paths; run it with `SECTION_ROOT` pointing at this checkout.
